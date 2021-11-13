@@ -163,8 +163,8 @@ get_glyph('u0077').right_side_bearing = 0
 get_glyph('u30a9').right_side_bearing = 100
 # ル
 get_glyph('u30eb').right_side_bearing = 0
-
-
+# 気
+get_glyph('u6c17').right_side_bearing = 5
 
 # * save
 f.save(os.path.splitext(font_file_name)[0] + '.sfd')
